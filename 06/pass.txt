@@ -1,0 +1,10 @@
+"радужные таблицы"
+password -> sha512 -> asdf9a8s-df98as-0d9f8as
+passw0rd -> sha512 -> asdf8asdfasdfjkhasdf7a8
+
+salt - asdf98asd9f8as908df
+password - 123qwe + salt
+
+-> pbkdf2
+
+as0d9f87as98df7as098df7as98d7fa09s87dfa09sd87fa0sdfa

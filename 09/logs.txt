@@ -1,0 +1,45 @@
+lala
+lala
+lala
+lala
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-02-25T17:29:23.132Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-02-25T17:29:23.132Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-02-25T17:29:23.132Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-02-25T17:29:23.132Z"}
+lala
+lala
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-02-25T17:36:05.539Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-02-25T17:36:05.539Z"}
+lala
+lala
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-02-25T17:36:06.248Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-02-25T17:36:06.248Z"}
+lala
+lala
+lala
+lala
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:05:46.191Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:05:46.194Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:05:46.198Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:05:46.199Z"}
+{"label":"application","level":"info","message":{"method":"GET","url":"/login"},"timestamp":"2022-04-14T17:06:20.102Z"}
+{"label":"application","level":"info","message":{"method":"GET","url":"/login"},"timestamp":"2022-04-14T17:06:21.295Z"}
+{"label":"application","level":"info","message":{"method":"GET","url":"/login"},"timestamp":"2022-04-14T17:06:21.878Z"}
+{"label":"application","level":"info","message":{"method":"POST","url":"/api/login"},"timestamp":"2022-04-14T17:06:26.718Z"}
+{"label":"application","level":"info","message":"asdas","timestamp":"2022-04-14T17:06:26.779Z"}
+lala
+lala
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:16:50.605Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:16:50.605Z"}
+lala
+lala
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:16:51.674Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:16:51.717Z"}
+lala
+lala
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:17:05.142Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:17:05.144Z"}
+lala
+lala
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:17:06.243Z"}
+{"label":"application","level":"info","message":"App is running on http://localhost:3000","timestamp":"2022-04-14T17:17:06.282Z"}
