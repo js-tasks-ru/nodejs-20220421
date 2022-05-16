@@ -1,14 +1,5 @@
-unit
+unit test
 integration
-functional/e2e (end-to-end)
+functional/e2e
 
-load testing
-pen testing
-
-mutation testing
-generative testing
-
-
-mocha, jasmine, jest, tape, ...
-[expect, chai, assert], assert.strictDeepEqual(obj1, obj2)
-sinon
+jest, jasmine, tape, mocha, node:test, assert
