@@ -1,52 +1,46 @@
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
 const Router = require('koa-router');
-const serve = require('koa-static');
-const path = require('path');
+const static = require('koa-static');
 const fs = require('fs');
 
 const app = new Koa();
 
+app.use(bodyParser());
+app.use(static('public'));
+
 app.use(async (ctx, next) => {
-    const start = Date.now();
-    
+    const now = Date.now();
+
     await next();
 
-    const delta = Date.now() - start;
-    console.log(`request ${ctx.method} ${ctx.url} has been processed in ${delta}ms`);
+    const diff = Date.now() - now;
+
+    console.log('request has been processed', diff, 'ms');
 });
 
-app.use(serve(path.join(__dirname, 'public')));
-app.use(bodyParser());
 
-app.use(async (ctx, next) => {
-    try {
-        await next();
-    } catch (err) {
-        console.log(err);
-        ctx.status = 500;
-        ctx.body = 'internal error';
-    }
+const profileRouter = new Router({ prefix: '/profile' });
+
+profileRouter.get('/:profileName', async (ctx, next) => {
+    // ctx.params.profileName - 'sergey-zelenov'
+    ctx.body = ctx.params.profileName;
 });
 
-const router = new Router();
-
-// router.get('/client.js', (ctx, next) => {
-//     const content = fs.readFileSync('public/client.js');
-//     ctx.body = content;
-// });
-
-router.get('/', async (ctx, next) => {
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    ctx.body = 'hello world';
+profileRouter.post('/photo', async (ctx, next) => {
+    
 });
 
-// /upload/image.png, /upload/file.txt, /upload
-router.post('/upload/:filename?', async (ctx, next) => {
-    // ctx.params.filename
-    ctx.body = ctx.request.body.message;
+profileRouter.delete('/:profileName', async (ctx, next) => {
+
 });
 
-app.use(router.routes());
+app.use(profileRouter.routes()); // profileRouter.routes() => (ctx, next) => {}
 
 app.listen(3000);
+
+function sleep(ms) {
+    return new Promise(resolve => {
+        setTimeout(resolve, ms);
+    });
+}
